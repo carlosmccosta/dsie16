@@ -1,7 +1,7 @@
 /* 
  * 1. Google Font
  */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
 /* 
  * 2.0 Global Style
  */
@@ -38,6 +38,7 @@ h6 {
 
 p {
   margin: 0 0 30px;
+  text-align: justify;
 }
 
 ul li {
@@ -136,7 +137,15 @@ ul li {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 66px 33px 0;
+}
+
+.section.partner {
+  padding: 66px 0 66px;
+}
+
+p.site-info {
+  text-align: center;
 }
 
 .section-title {
@@ -239,7 +248,7 @@ ul li {
 
 @media (min-width: 768px) {
   .section {
-    padding: 90px 0;
+    padding: 77px 33px 0;
   }
 
   .section-title {
@@ -247,6 +256,13 @@ ul li {
     letter-spacing: 1px;
     margin: 0 0 60px;
     text-transform: uppercase;
+    text-align: left;
+  }
+    
+  .subsection-title {
+    color: #313131;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
     text-align: left;
   }
 }
@@ -258,7 +274,7 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #000;
+  background-color: rgba(0,0,0,0.75);
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -283,14 +299,15 @@ ul li {
 .navbar-toggle {
   border: 0;
   border-radius: 0;
-  margin-top: 2px;
+  vertical-align: middle;
+  text-align: center;
 }
 .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 
 .navbar-solid {
-  background-color: #000 !important;
+  background-color: rgba(0,0,0,0.75);
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -305,10 +322,18 @@ ul li {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
-  margin-right: 5px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  line-height: 47px;
+  text-align: center;
 }
+
+.site-branding .logo img {
+  height: 47px;
+  vertical-align: middle;
+  padding: 3px;
+}
+
 .site-branding .logo:focus, .site-branding .logo:hover {
   text-decoration: none;
 }
@@ -359,13 +384,11 @@ ul li {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
-    padding-top: 30px;
+    background-color: rgba(0,0,0,0.75);
   }
 
   .site-branding {
-    margin-top: 6px;
-    margin-left: 0;
+    margin: 5px;
   }
 }
 /* 
@@ -455,38 +478,32 @@ ul li {
 .partner .partner-box {
   display: block;
   opacity: 0.3;
-  height: 150px;
+  height: 75px;
   width: 150px;
-  margin: 25px auto;
+  margin: 0px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
 .partner .partner-box:hover {
   opacity: 1;
 }
-.partner .partner-box-1 {
-  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
+.partner .partner-box-up {
+  background: url(../images/partner/logo-up.png) no-repeat center center/contain;
 }
-.partner .partner-box-2 {
-  background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+.partner .partner-box-feup {
+  background: url(../images/partner/logo-feup.png) no-repeat center center/contain;
 }
-.partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+.partner .partner-box-dei {
+  background: url(../images/partner/logo-dei.png) no-repeat center center/contain;
 }
-.partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+
+.partner-box-row {
+    text-align: center;
 }
-.partner .partner-box-5 {
-  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
-}
-.partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
-}
-.partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
-}
-.partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+
+.partner-box-container {
+    float: none;
+    display: inline-block;
 }
 
 /* 
@@ -527,7 +544,15 @@ ul li {
 }
 
 /* 
- * 6.9 Section: photos
+ * 6.9 Section: location
+ */
+
+#location {
+    margin-top: 30px;
+}
+
+/* 
+ * 6.10 Section: photos
  */
 .grid {
   list-style-type: none;

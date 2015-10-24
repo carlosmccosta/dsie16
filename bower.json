@@ -1,16 +1,16 @@
 {
-  "name": "conference",
+  "name": "symposium",
   "version": "1.0.0",
   "authors": [
-    "Technext Limited <info@technextit.com>"
+    "DSIE16 <dsie16@fe.up.pt>"
   ],
-  "description": "Responsive HTML5 Bootstrap 3 template for Event Site",
+  "description": "11th Doctoral Symposium in Informatics Engineering - 2016",
   "main": "index.html",
   "keywords": [
-    "conference"
+    "symposium"
   ],
   "license": "GNU GENERAL PUBLIC LICENSE Version 3",
-  "homepage": "https://github.com/technext/conference",
+  "homepage": "https://github.com/carlosmccosta/dsie16",
   "ignore": [
     "**/.*",
     "node_modules",
