@@ -137,7 +137,7 @@ ul li {
 }
 
 .section {
-  padding: 66px 33px 0;
+  padding: 77px 33px 0;
 }
 
 .section.partner {
@@ -258,14 +258,22 @@ p.site-info {
     text-transform: uppercase;
     text-align: left;
   }
-    
+}
+
+.subsection-title {
+  color: #313131;
+  letter-spacing: 1px;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+
+@media (max-width: 768px) {
   .subsection-title {
-    color: #313131;
-    letter-spacing: 1px;
-    margin: 0 0 10px;
-    text-align: left;
+    margin: 27px 0 13px;
   }
 }
+
 /* 
  * 4.0 Navigation
  */
@@ -331,7 +339,7 @@ p.site-info {
 .site-branding .logo img {
   height: 47px;
   vertical-align: middle;
-  padding: 3px;
+  padding: 2px;
 }
 
 .site-branding .logo:focus, .site-branding .logo:hover {
@@ -356,7 +364,6 @@ p.site-info {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 .site-header .intro {
   color: #fff;
