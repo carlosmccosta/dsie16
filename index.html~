@@ -225,7 +225,7 @@
 		        </div>
 		    </div>
 		    <div class="col-md-4 col-sm-6">
-		        <div class="schedule-box-lunch">
+		        <div class="schedule-box">
 		            <div class="time">
 		                <time datetime="12:30">12:30</time> - <time datetime="02:00">14:00</time>
 		            </div>

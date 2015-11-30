@@ -577,23 +577,6 @@ p.site-info {
   left: 5px;
   border: 1px solid #fff;
 }
-.schedule-box-dinner {
-  position: relative;
-  background-color: #804000;
-  color: #fff;
-  text-align: center;
-  padding: 50px 0;
-  margin: 25px 0 0;
-}
-.schedule-box-dinner::before {
-  content: '';
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px;
-  border: 1px solid #fff;
-}
 
 /* 
  * 6.7 Section: Schedule
