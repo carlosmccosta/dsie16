@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-  margin: 0 0 30px;
+  margin: 0 0 13px;
   text-align: justify;
 }
 
@@ -265,6 +265,10 @@ p.site-info {
   letter-spacing: 1px;
   margin: 0 0 10px;
   text-align: left;
+}
+
+p + .subsection-title {
+  margin: 30px 0 15px;
 }
 
 
