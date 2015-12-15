@@ -481,7 +481,8 @@ p + .subsection-title {
 }
 .schedule-box-welcome {
   position: relative;
-  background-color: #FFA500;
+  /*background-color: #FFA500;*/
+  background: linear-gradient(to bottom, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -498,7 +499,8 @@ p + .subsection-title {
 }
 .schedule-box-open-close {
   position: relative;
-  background-color: #800000;
+  /*background-color: #800000;*/
+  background: linear-gradient(to bottom, rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(231,56,39,1) 100%); 
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -515,7 +517,8 @@ p + .subsection-title {
 }
 .schedule-box-speaker {
   position: relative;
-  background-color: #3333FF;
+  /*background-color: #3333FF;*/
+  background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -532,7 +535,8 @@ p + .subsection-title {
 }
 .schedule-box-sessions {
   position: relative;
-  background-color: #CD5C5C;
+  /*background-color: #CD5C5C;*/
+  background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -549,7 +553,8 @@ p + .subsection-title {
 }
 .schedule-box-break {
   position: relative;
-  background-color: #008000;
+  /*background-color: #008000;*/
+  background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -566,7 +571,8 @@ p + .subsection-title {
 }
 .schedule-box-lunch {
   position: relative;
-  background-color: #804000;
+  /*background-color: #804000;*/
+  background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -583,7 +589,8 @@ p + .subsection-title {
 }
 .schedule-box-dinner {
   position: relative;
-  background-color: #804000;
+  /*background-color: #804000;*/
+  background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
   color: #fff;
   text-align: center;
   padding: 50px 0;
