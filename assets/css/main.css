@@ -443,6 +443,7 @@ p + .subsection-title {
 }
 .speaker p {
   margin-bottom: 5px;
+  text-align: center;
 }
 .speaker img:hover {
   opacity: .7;
