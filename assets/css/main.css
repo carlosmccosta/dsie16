@@ -467,7 +467,7 @@ p + .subsection-title {
   background-color: #000;
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box::before {
@@ -485,7 +485,7 @@ p + .subsection-title {
   background: linear-gradient(to bottom, #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%);
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box-welcome::before {
@@ -503,7 +503,7 @@ p + .subsection-title {
   background: linear-gradient(to bottom, rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(231,56,39,1) 100%); 
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box-open-close::before {
@@ -521,7 +521,7 @@ p + .subsection-title {
   background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box-speaker::before {
@@ -539,7 +539,7 @@ p + .subsection-title {
   background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box-sessions::before {
@@ -557,7 +557,7 @@ p + .subsection-title {
   background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%);
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box-break::before {
@@ -575,7 +575,7 @@ p + .subsection-title {
   background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box-lunch::before {
@@ -593,7 +593,7 @@ p + .subsection-title {
   background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
   color: #fff;
   text-align: center;
-  padding: 50px 0;
+  padding: 25px 0;
   margin: 25px 0 0;
 }
 .schedule-box-dinner::before {
