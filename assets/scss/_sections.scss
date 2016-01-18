@@ -111,6 +111,14 @@
 		}
 	}
 
+	.partner-box-primavera-bss {
+		background: url(../images/partner/logo-primavera-bss.png) no-repeat center center / contain;
+	}
+
+	.partner-box-dolce-vita-porto {
+		background: url(../images/partner/logo-dolce-vita-porto.svg) no-repeat center center / contain;
+	}
+
 	.partner-box-up {
 		background: url(../images/partner/logo-up.png) no-repeat center center / contain;
 	}
@@ -230,5 +238,15 @@
 
 	.grid-item-md-3 {
 		width: 25%;
+	}
+}
+
+
+@media screen and (min-width: 480px) {
+	.partner .partner-box-primavera-bss {
+		margin: 0px auto;
+	}
+	.partner .partner-box-dolce-vita-porto {
+		margin: 0px auto;
 	}
 }

@@ -624,6 +624,16 @@ p + .subsection-title {
 .partner .partner-box:hover {
   opacity: 1;
 }
+.partner .partner-box-primavera-bss {
+  background: url(../images/partner/logo-primavera-bss.png) no-repeat center center/contain;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.partner .partner-box-dolce-vita-porto {
+  background: url(../images/partner/logo-dolce-vita-porto.svg) no-repeat center center/contain;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .partner .partner-box-up {
   background: url(../images/partner/logo-up.png) no-repeat center center/contain;
 }
@@ -632,6 +642,15 @@ p + .subsection-title {
 }
 .partner .partner-box-dei {
   background: url(../images/partner/logo-dei.png) no-repeat center center/contain;
+}
+
+@media (min-width: 480px) {
+  .partner .partner-box-primavera-bss {
+    margin: 0px auto;
+  }
+  .partner .partner-box-dolce-vita-porto {
+    margin: 0px auto;
+  }
 }
 
 .partner-box-row {
