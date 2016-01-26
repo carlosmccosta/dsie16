@@ -111,12 +111,39 @@
 		}
 	}
 
+	.partner-box-deloitte-digital {
+		background: url(../images/partner/logo-deloitte-digital.svg) no-repeat center center / contain;
+		height: 113px;
+		width: 225px;
+		margin-left: 13px;
+	}
+
+	.partner-box-itgrow {
+		background: url(../images/partner/itgrow.png) no-repeat center center / contain;
+		height: 94px;
+		width: 188px;
+	}
+
+	.partner-box-critical-software {
+		background: url(../images/partner/critical-software.png) no-repeat center center / contain;
+		height: 94px;
+		width: 188px;
+	}
+
+	.partner-box-siemens {
+		background: url(../images/partner/logo-siemens.svg) no-repeat center center / contain;
+	}
+
 	.partner-box-primavera-bss {
 		background: url(../images/partner/logo-primavera-bss.png) no-repeat center center / contain;
+		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 
 	.partner-box-dolce-vita-porto {
 		background: url(../images/partner/logo-dolce-vita-porto.svg) no-repeat center center / contain;
+		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 
 	.partner-box-up {
@@ -242,7 +269,7 @@
 }
 
 
-@media screen and (min-width: 480px) {
+@media (min-width: 480px) {
 	.partner .partner-box-primavera-bss {
 		margin: 0px auto;
 	}

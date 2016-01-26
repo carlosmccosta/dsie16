@@ -278,6 +278,13 @@ p + .subsection-title {
   }
 }
 
+.subsection-title-center {
+  color: #313131;
+  letter-spacing: 1px;
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
 /* 
  * 4.0 Navigation
  */
@@ -324,6 +331,11 @@ p + .subsection-title {
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
+
+.navbar-fixed-bottom, .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 381px;
+}
+
 
 .site-branding {
   float: left;
@@ -623,6 +635,25 @@ p + .subsection-title {
 }
 .partner .partner-box:hover {
   opacity: 1;
+}
+.partner .partner-box-deloitte-digital {
+  background: url(../images/partner/logo-deloitte-digital.svg) no-repeat center center/contain;
+  height: 175px;
+  width: 350px;
+  margin-left: 13px;
+}
+.partner .partner-box-itgrow {
+  background: url(../images/partner/logo-itgrow.png) no-repeat center center/contain;
+  height: 94px;
+  width: 188px;
+}
+.partner .partner-box-critical-software {
+  background: url(../images/partner/logo-critical-software.png) no-repeat center center/contain;
+  height: 94px;
+  width: 188px;
+}
+.partner .partner-box-siemens {
+  background: url(../images/partner/logo-siemens.svg) no-repeat center center/contain;
 }
 .partner .partner-box-primavera-bss {
   background: url(../images/partner/logo-primavera-bss.png) no-repeat center center/contain;
