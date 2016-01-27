@@ -1,0 +1,298 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Conference Registration Form</title>
+
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+
+<script type="text/javascript"></script>
+
+    <style type="text/css">
+        .auto-style1 {
+            height: 20px;
+        }
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}
+        .auto-style6 {
+            width: 187px;
+        }
+        #Text3 {
+            width: 367px;
+        }
+        #Text4 {
+            width: 367px;
+        }
+        #Text5 {
+            width: 190px;
+        }
+        #Text6 {
+            width: 364px;
+        }
+        #Text7 {
+            width: 578px;
+            height: 94px;
+        }
+        #Submit1 {
+            width: 159px;
+        }
+        .auto-style8 {
+            width: 344px;
+        }
+        .auto-style9 {
+            width: 240px;
+        }
+        #Select1 {
+            width: 184px;
+        }
+        #Checkbox1 {
+            height: 19px;
+            width: 19px;
+        }
+        #TypeRegistration {
+            width: 128px;
+        }
+        #Text1 {
+            width: 170px;
+        }
+        #Text2 {
+            width: 171px;
+        }
+        #eMail {
+            width: 318px;
+        }
+        #Comments {
+            width: 484px;
+            height: 83px;
+        }
+        #TextArea1 {
+            width: 437px;
+            height: 71px;
+        }
+        #TypeRegistration0 {
+            width: 128px;
+        }
+        #TypeParticipant {
+            width: 126px;
+        }
+        .auto-style15 {
+            width: 14px;
+        }
+        .auto-style16 {
+            width: 16px;
+        }
+        .auto-style17 {
+            height: 20px;
+            width: 83px;
+        }
+        .auto-style18 {
+            width: 83px;
+        }
+        #Send {
+            height: 20px;
+            width: 202px;
+        }
+        #DSIE {
+            width: 152px;
+        }
+        #Button1 {
+            width: 168px;
+        }
+        </style>
+
+    <script language= "javascript" type="text/javascript">
+
+        function checkTypeRegistration()
+        {
+            var Registration = document.getElementById("TypeRegistration").value
+            if (Registration == "External/Other")
+            {
+                document.getElementById("TypeRegistration_Other").style.visibility = "visible"
+                document.getElementById("TypeRegistration_Other").focus
+       
+            }
+            else
+            {
+                document.getElementById("TypeRegistration_Other").style.visibility = "hidden"
+            }
+        }
+
+        function checkTypeParticipant()
+        {
+            var Participant = document.getElementById("TypeParticipant").value
+            if (Participant == "Other")
+            {
+                document.getElementById("TypeParticipant_Other").style.visibility = "visible"
+                document.getElementById("TypeParticipant_Other").focus
+        
+            }
+            else
+            {
+                document.getElementById("TypeParticipant_Other").style.visibility = "hidden"
+            }
+        }
+
+
+        function checkMandatoryFields()
+        {
+            var fName = document.getElementById("FirstName").value;
+            if (fName == "")
+            {
+                alert("Please fill in your Fisrt Name");
+                document.getElementById("FirstName").focus();
+                return false
+            }
+            var lName = document.getElementById("LastName").value;
+            if (lName == "") {
+                alert("Please fill in your Last Name");
+                document.getElementById("LastName").focus();
+                return false
+            }
+            var eMail = document.getElementById("eMail").value;
+            if (eMail == "")
+            {
+                alert("Please fill in your eMail");
+                document.getElementById("eMail").focus();
+                return false
+            }
+
+            //var re = /\S+@\S+\.\S+/;
+            //var email_check = re.test(document.getElementById("eMail").value.toString());
+            //alert(email_check);
+            
+            //if (email_check == "false") 
+            //{
+            //    alert("Your email is invalid.Please enter a valid email.");
+                //document.getElementById("eMail").focus();
+                //return false
+            //}
+
+            alert("Passou");
+            var TypeParticipant = document.getElementById("TypeParticipant").value;
+            if (TypeParticipant == "") {
+                alert("Please fill in your type of participant");
+                document.getElementById("TypeParticipant").focus();
+                return false
+            }
+            if (TypeParticipant == "Other") {
+                var TypeParticipant_Other = document.getElementById("TypeParticipant_Other").value;
+                if (TypeParticipant_Other == "") {
+                    alert("Please fill in your other type of participant");
+                    document.getElementById("TypeParticipant_Other").focus();
+                    return false
+                }
+            }
+
+            var TypeRegistration = document.getElementById("TypeRegistration").value;
+            if (TypeRegistration == "") {
+                alert("Please fill in your type of Registration");
+                document.getElementById("TypeRegistration").focus();
+                return false
+            }
+            if (TypeRegistration == "External/Other")
+            {
+                var TypeRegistration_Other = document.getElementById("TypeRegistration_Other").value;
+                if (TypeRegistration_Other == "")
+                {
+                    alert("Please fill in your other type of Registration");
+                    document.getElementById("TypeRegistration_Other").focus();
+                    return false
+                }       
+            }
+        return true 
+        }
+   
+        function open_win() {
+            window.navigate("https://paginas.fe.up.pt/~prodei/dsie16/")
+        }
+
+        function validateEmail()
+        {
+            var re = /\S+@\S+\.\S+/;
+            var email = re.test(document.getElementById("eMail").value);
+            alert("Your email is invalid.Please enter a valid email.");
+        }
+    </script>
+
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="top.png" alt="">
+	<div id="form_container">
+	
+		<p>
+            <table style="width:100%;">
+                <tr>
+                    <td class="auto-style15">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
+                    <td class="auto-style8">
+                        <img align="right" alt="" class="auto-style6" src="logo-black-text_10.png" /></td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+            </table>
+        </p>
+		<form id="Form_DSIE" name="RegistrationForm" onsubmit=" checkMandatoryFields()" method="post">
+			    			    
+					<div class="form_description">
+			            <table style="width:100%;">
+                            <tr>
+                                <td class="auto-style16">&nbsp;</td>
+                                <td>
+			<h2 id="h2">Conference Registration Form&nbsp;</h2>
+		                        </td>
+                            </tr>
+                        </table>
+		</div>						
+			        <p>
+                        &nbsp;&nbsp;&nbsp;
+                    </p>
+                    <hr />
+                    <p>
+                        <table style="width:100%;">
+                            <tr>
+                                <td bgcolor="ActiveBorder" class="auto-style18" style="color: #000080; font-weight: bolder; background-color: #C0C0C0;">&nbsp;</td>
+                                <td style="color: #000080; font-weight: bolder; background-color: #C0C0C0; font-size: large;" colspan="2">Congratulations !<br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style17"></td>
+                                <td class="auto-style1">Your registration was sucessfully done.</td>
+                                <td class="auto-style1">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style17"></td>
+                                <td class="auto-style1" colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style18">&nbsp;</td>
+                                <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style18">&nbsp;</td>
+                                <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style18">&nbsp;</td>
+                                <td colspan="2" style="font-style: italic">The organization committee</td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style18">&nbsp;</td>
+                                <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style18">&nbsp;</td>
+                                <td colspan="2">
+                                    <input id="BackDSIE" type="button" name="BackDSIE" value="Back to DSIE home page" onclick="open_win()" /></td>
+                                <td colspan="2" style="font-size: small">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </p>
+                    <p>
+                        &nbsp;</p>
+&nbsp;</form>
+	</div>
+	<img id="bottom" src="bottom.png" alt="">
+
+   	</body>
+</html>
