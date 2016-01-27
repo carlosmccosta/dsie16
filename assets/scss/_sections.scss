@@ -95,6 +95,21 @@
  * 6.7 Section: Schedule
  */
 
+#program div div a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.fadein {
+	opacity: 1.0;
+	-webkit-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+}
+
+.fadein:hover {
+	opacity: 0.5;
+}
+
 .partner {
 	background-color: #f8f8f8;
 
@@ -115,7 +130,6 @@
 		background: url(../images/partner/logo-deloitte-digital.svg) no-repeat center center / contain;
 		height: 113px;
 		width: 225px;
-		margin-left: 13px;
 	}
 
 	.partner-box-itgrow {

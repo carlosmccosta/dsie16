@@ -617,6 +617,10 @@ p + .subsection-title {
   left: 5px;
   border: 1px solid #fff;
 }
+#program div div a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /* 
  * 6.7 Section: Schedule
@@ -633,6 +637,14 @@ p + .subsection-title {
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
+.fadein {
+  opacity: 1.0;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.fadein:hover {
+  opacity: 0.5;
+}
 .partner .partner-box:hover {
   opacity: 1;
 }
@@ -640,7 +652,6 @@ p + .subsection-title {
   background: url(../images/partner/logo-deloitte-digital.svg) no-repeat center center/contain;
   height: 175px;
   width: 350px;
-  margin-left: 13px;
 }
 .partner .partner-box-itgrow {
   background: url(../images/partner/logo-itgrow.png) no-repeat center center/contain;
