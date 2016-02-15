@@ -298,8 +298,8 @@ p + .subsection-title {
 }
 
 .navbar-nav>li>a {
-  padding-bottom: 5px;
-  margin-bottom: 5px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
 }
 
 @media (min-width: 1200px) {
@@ -317,8 +317,8 @@ p + .subsection-title {
 }
 
 .nav>li>a {
-    padding-right: 7px;
-    padding-left: 7px;
+    padding-right: 4px;
+    padding-left: 4px;
 }
 
 .navbar-custom {
@@ -366,7 +366,7 @@ p + .subsection-title {
 }
 
 .navbar-fixed-bottom, .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-    max-height: 422px;
+    max-height: 463px;
 }
 
 
